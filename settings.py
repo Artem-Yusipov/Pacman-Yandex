@@ -1,0 +1,22 @@
+from pygame.math import Vector2 as vec
+
+# экран
+WIDTH, HEIGHT = 610, 670
+FPS = 100
+TOP_BOTTOM_BUFFER = 50
+MAZE_WIDTH, MAZE_HEIGHT = WIDTH-TOP_BOTTOM_BUFFER, HEIGHT-TOP_BOTTOM_BUFFER
+
+ROWS = 30
+COLS = 28
+
+# цвета
+BLACK = (0,0,0)
+WHITE = (255, 255, 255)
+GREY = (107, 107, 107)
+PLAYER_COLOUR = (255, 204, 3)
+RED = (240, 20, 20)
+GREEN = (145, 242, 130)
+
+# шрифт
+START_TEXT_SIZE = 16
+START_FONT = 'arial black'
